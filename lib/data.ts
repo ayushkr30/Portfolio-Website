@@ -80,6 +80,29 @@ export const projectData = [
         description:
         "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
         tags: ["React","Next.js","SQL", "Tailwind","Prisma","Framer"],
-        tags: [""]
-    }
-]
+        imageUrl: wordanalyticsImg,
+    },
+] as const;
+
+export const skillsData = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Git",
+    "Tailwind",
+    "Prisma",
+    "MongoDB",
+    "Redux",
+    "GraphQL",
+    "Apollo",
+    "Express",
+    "PostreSQL",
+    "Python",
+    "Django",
+    "Framer Motion",
+
+] as const;
