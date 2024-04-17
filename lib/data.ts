@@ -1,7 +1,7 @@
 import React from "react";
-import {CgWorkAlt} from "react-icons/cg";
-import {FaReact} from "react-icons/fa";
-import{LuGraduationCap} from "react-icons/fa";
+import { CgWorkAlt } from "react-icons/cg";
+import { FaReact } from "react-icons/fa";
+import{ LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -55,7 +55,7 @@ export const experiencesData = [
         location: "Houstan, TX",
         description: 
         "I'm now a Full-Stack developer working as a freelancer. My stack include React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact);
+        icon: React.createElement(FaReact),
         date: "2021-present",
     },
 ] as const;
