@@ -42,7 +42,7 @@ export default function About() {
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the
+        learning how to play the guitar.
       </p>
     </motion.section>
   );
