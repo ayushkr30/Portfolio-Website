@@ -69,6 +69,6 @@ export default function Contact() {
         />
         <SubmitBtn />
       </form>
-    </motion.section>
+ 
   );
 }
